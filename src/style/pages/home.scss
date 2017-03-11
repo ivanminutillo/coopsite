@@ -1,0 +1,21 @@
+.home {
+    .home_header {
+        background: url('../public/back.png');
+        background-size: contain;
+        height: 230px;
+        width: 100%;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: 40px;
+        .header_title {
+            @include text-link($p100);
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 260px;
+        }
+    }
+    .content {
+        margin-top: 80px;
+    }
+}

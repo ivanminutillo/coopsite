@@ -1,7 +1,23 @@
 @mixin text-link($color) {
   font-size: $s-font-size;
-  font-weight: $m-font-weight;
+  font-weight: $xm-font-weight;
   line-height: $m-line-height;
   letter-spacing: $m-letter-spacing;
+  color: $color;
+}
+
+@mixin section-title($color) {
+  font-size: $m-font-size;
+  font-weight: $xm-font-weight;
+  line-height: $m-line-height;
+  letter-spacing: $m-letter-spacing;
+  color: $color;
+}
+
+@mixin general-text($color) {
+  font-size: 13px;
+  font-weight: $m-font-weight;
+  line-height: 22px;
+  letter-spacing: 1px;
   color: $color;
 }

@@ -2,6 +2,11 @@ body {
     margin: 20px;
     margin-top: 0;
     background-color: $p500;
+    font-family: $sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-backface-visibility: hidden;
 }
 
 ul {
@@ -12,4 +17,13 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.content {
+    .content_text {
+        @include general-text($p100);
+        p {
+            margin-bottom: 20px;
+        }
+    }
 }
