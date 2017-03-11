@@ -1,0 +1,7 @@
+@mixin text-link($color) {
+  font-size: $s-font-size;
+  font-weight: $m-font-weight;
+  line-height: $m-line-height;
+  letter-spacing: $m-letter-spacing;
+  color: $color;
+}
